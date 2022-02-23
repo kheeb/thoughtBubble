@@ -5,10 +5,14 @@
     "main": "index.js",
     "license": "MIT",
     "scripts": {
-      "start": "node index",
+      "start": "nodemon index.js",
       "dev": "nodemon index",
       "seed": "node utils/seed",
       "heroku-postbuild": "node utils/seed.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kheeb/thoughtBubble.git"
     },
     "dependencies": {
       "express": "^4.17.1",
