@@ -50,14 +50,14 @@ const thoughtData = [
     "username": "theQueen"
     },
     {
-    "_id": ObjectId(),
-    "thoughtText": "",
-    "username": ""
+    "_id": ObjectId("621c7856416b91b33b6981918"),
+    "thoughtText": "Must our only options be to squak and settle or never leave the nest?",
+    "username": "EBridgerton"
     },
     {
-    "_id": ObjectId(),
-    "thoughtText": "",
-    "username": ""
+    "_id": ObjectId("621c78da416b91b3b698191a"),
+    "thoughtText": "You do not know me, and never shall.",
+    "username": "ladyWhistledown"
     },
 ]
 

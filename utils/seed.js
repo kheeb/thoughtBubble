@@ -18,7 +18,7 @@ connection.once('open', async () => {
     await Thoughts.collection.insertMany(thoughtData);
 
     // log out the seed data to indicate what should appear in the database
-  
+    console.table(User, Thought)
     console.info('seeding for user and thoughts collections now complete!🌱');
     process.exit(0);
 });
